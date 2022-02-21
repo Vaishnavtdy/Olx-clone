@@ -1,0 +1,45 @@
+.banner__container{
+    padding-top: 4em;
+}
+
+.menu__bar{
+    display: flex;
+    padding: 10px 16px 10px 16px;
+}
+.category__menu  span {
+    margin-right: 16px;
+    font-weight: bolder;
+}
+.other__options{
+    margin-top: 6px;
+}
+.other__options span{
+    padding: 10px;
+}
+.banner{
+    position: relative;
+    width: 100vw;
+}
+.banner img{
+    width: 100vw;
+    height: max-content;
+}
+
+@media only screen and (max-width: 700px) {
+    .banner {
+      position: relative;
+    }
+    .options__hide{
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px){
+    .options__hide1{
+        display: none;
+    }
+}
+@media only screen and (max-width: 480px){
+    .other__options{
+        display: none;
+    }
+}
